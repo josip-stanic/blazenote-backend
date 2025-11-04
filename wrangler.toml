@@ -10,8 +10,7 @@ custom_domain = true
 # TODO: In-Workshop Activities. Uncomment the code below:
  
 [[d1_databases]]
-# binding = "DB"
-binding = "blazenote"
+binding = "DB"
 database_name = "blazenote"
 database_id = "70caf367-ae5b-49bd-bf71-63fe02f307f5"
 migrations_dir = "./migrations"
