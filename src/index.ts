@@ -14,7 +14,7 @@ const app = new Hono();
 const allowedOrigins = new Set([
   "http://localhost:5173",
   "https://enterprising-philosopher.sxplab.com",
-  "https://blazenote-frontend.enterprising-philosopher.workers.dev"
+  "https://blazenote-frontend.enterprising-philosopher.workers.dev",
 ]);
 
 // https://hono.dev/docs/middleware/builtin/cors
