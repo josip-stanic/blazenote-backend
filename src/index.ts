@@ -13,7 +13,7 @@ const app = new Hono();
 // Important! No trailing slash
 const allowedOrigins = new Set([
   "http://localhost:5173",
-  "https://enterprising-philosopher.sxplab.com",
+  "https://blazenote-frontend.enterprising-philosopher.sxplab.com",
   "https://blazenote-frontend.enterprising-philosopher.workers.dev",
 ]);
 
